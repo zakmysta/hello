@@ -10,4 +10,8 @@
     <access origin="*" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+	<feature name="debug-server" required="true">
+		<param name="domain" value="http://debug.build.phonegap.com"/>
+		<param name="key" value="c2630c0c-ff83-11e2-a95c-22000a98b3d6"/>
+	</feature>
 </widget>
