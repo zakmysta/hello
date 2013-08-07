@@ -10,7 +10,7 @@
             function soap() {
 				
                 var xhr = new XMLHttpRequest();
-                xhr.open('POST', 'http://10.0.2.2:8080/Spoc/hello', true);
+                xhr.open('POST', 'http://localhost:8080/Spoc/hello', true);
 
                 // build SOAP request
                 var sr =
@@ -18,7 +18,7 @@
                     '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">' + 
                         '<Body>' + 
                             '<getHelloWorld xmlns="http://ws.mckesson.com/">' + 
-                                '<name>' + document.getElementById("txtName").value + '</name>' + 
+                                '<name xmlns="">' + document.getElementById("txtName").value + '</name>' + 
                             '</getHelloWorld>' +
                         '</Body>' + 
                     '</Envelope>';
