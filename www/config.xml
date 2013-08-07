@@ -11,7 +11,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
 	<feature name="debug-server" required="true">
-		<param name="domain" value="http://10.81.98.173:3000"/>
+		<param name="domain" value="http://localhost:3000"/>
 		<param name="key" value="hello-world-test"/>
 	</feature>
 </widget>
