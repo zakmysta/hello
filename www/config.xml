@@ -11,7 +11,7 @@
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
 	<feature name="debug-server" required="true">
-		<param name="domain" value="http://debug.build.phonegap.com"/>
-		<param name="key" value="c2630c0c-ff83-11e2-a95c-22000a98b3d6"/>
+		<param name="domain" value="http://10.81.98.173:3000"/>
+		<param name="key" value="hello-world-test"/>
 	</feature>
 </widget>
