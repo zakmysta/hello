@@ -4,7 +4,6 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <title>Hello World</title>
-        <script src="http://localhost:3000/target/target-script-min.js#hello-world-test"></script>
     </head>
     <body>
         <script type="text/javascript">            
@@ -19,7 +18,7 @@
                     '<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">' + 
                         '<Body>' + 
                             '<getHelloWorld xmlns="http://ws.mckesson.com/">' + 
-                                '<arg0 xmlns="">' + document.getElementById("txtName").value + '</arg0>' + 
+                                '<name>' + document.getElementById("txtName").value + '</name>' + 
                             '</getHelloWorld>' +
                         '</Body>' + 
                     '</Envelope>';
