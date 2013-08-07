@@ -27,8 +27,8 @@ C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\cordova_plugins.js \
 C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\css \
 C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\img \
 C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\index.html \
-C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\index_default.html \
 C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\js \
+C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\main.html \
 C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\res \
 C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\spec \
 C:\Users\zkhan\phonegap\hello\platforms\android\assets\www\spec.html \
